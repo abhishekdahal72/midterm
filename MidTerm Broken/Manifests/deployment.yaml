@@ -9,7 +9,7 @@ spec:
   selector:
     matchLabels:
       app: flask-app
-      app: greeting
+      component: greeting
   template:
     metadata:
       labels:
